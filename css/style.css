@@ -1,8 +1,10 @@
-* {
-    background: turquoise;
-}
-
 .title {
     text-align: center;
-    color: red;
 }
+/* .parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(../image/image_parallax/tigre.jpg);
+    width: 100%;
+    height: 200px;
+} */
