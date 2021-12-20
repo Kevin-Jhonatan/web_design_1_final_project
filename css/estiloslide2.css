@@ -1,13 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 html {
     font-size: 8px;
 }
-
 body {
     background-color: azure;
 }
@@ -36,7 +29,6 @@ body {
     bottom: 100px;
     background-size: cover;
 }
-
 
 /*nth-child coincide con uno o más elementos en función de su posición entre un grupo de hermanos.*/
 
@@ -81,7 +73,6 @@ body {
     font-weight: 300;
 }
 
-
 /*fotograma describe cómo se muestra cada elemento animado en un momento dado durante la secuencia de la animación.*/
 
 @keyframes cycleImages {
@@ -92,7 +83,6 @@ body {
         opacity: 0;
     }
 }
-
 
 /*@keyframes zoom {
     100% {
