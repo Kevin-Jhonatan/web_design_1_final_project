@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">    
+    <link rel="stylesheet" href="js/menu.js">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/script.js"></script>
     <link rel="shortcut icon" href="image/icon/favicon.png" type="image/x-icon">
     <title>Proyecto Final | Diseño Web I</title>
@@ -14,32 +17,41 @@
 <body>
     <div class="container">
         <header>
-            <nav class="navegation">
-                <ul>
-                    <a href="index.html"><img src="image/logo/logotipo.png" alt=""></a>
-                    <li><a class="home" href="index.html" rel="noopener noreferrer">Inicio</a></li>
-                    <li><a class="section" href="content/section/sections.html" rel="noopener noreferrer">Secciones</a>
-                        <ul>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Animales encontrador en los últimos años</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Animales en peligro de extinción</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Animales más comunes</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Fauna marina</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Migración de especies en Bolivia</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="specie" href="content/specie/species.html" rel="noopener noreferrer">Especies</a>
-                        <ul>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Aves</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Felinos</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Camelidos</a></li>
-                            <li><a href="#" target="_blank" rel="noopener noreferrer">Roedores</a></li>
-                        </ul>
-                    </li>
-                    <li><a class="about" href="#about" rel="noopener noreferrer">Acerca de nosotros</a></li>
-                    <li><a class="contactanos" href="#contact" rel="noopener noreferrer">Contactanos</a></li>
-                </ul>
+            <nav class="nav">
+                <div class="nav_cont">
+                    <div class="nav_logo">
+                        <a href="#"><img src="image/logo/logotipo.png" alt=""></a>
+                    </div>
+                    <label for="menu" class="nav_label">                
+                        <i class="icon-menu"></i>                 
+                    </label>
+                    <input type="checkbox" id="menu" class="nav_input">
+                    <ul class="nav_menu" >                        
+                        <li><a class="nav_item" href="#" rel="noopener noreferrer">Inicio</a></li>
+                        <li><a class="nav_item" href="#" rel="noopener noreferrer">Secciones <span class="icon-angle-down"></span></a>
+                            <ul class="sub">
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Animales encontrador en los últimos años</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Animales en peligro de extinción</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Animales más comunes</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Fauna marina</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Migración de especies en Bolivia</a></li>
+                            </ul>
+                        </li>
+                        <li><a  class="nav_item" href="#" rel="noopener noreferrer">Especies<span class="icon-angle-down"></span></a>
+                             <ul class="sub">
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Aves</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Felinos</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Camelidos</a></li>
+                                <li><a class="nav_item" href="#" target="_blank" rel="noopener noreferrer">Roedores</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav_item" href="#about" rel="noopener noreferrer">Acerca de nosotros</a></li>
+                        <li><a class="nav_item"  href="#contact" rel="noopener noreferrer">Contactanos</a></li>
+                    </ul>    
+                </div>
             </nav>
         </header>
+        <script src="js/menu.js"></script>
         <main>
             <!--Primer slide-->
             <!--contenedor padre-->
