@@ -22,7 +22,7 @@ header label
     background: #000000;
     height: 80px;
     color: rgb(255, 255, 255); 
-
+   
 }
 .nav ul
 {
@@ -38,11 +38,17 @@ header label
 }
 .nav ul ul
 {
-    padding: 20px;
+    padding: 10px;
     display: none;
-    background: rgb(255, 255, 255);
-    text-align: left;   
-    border: 5px solid #000;
+    background:white ;       
+    border-radius: 3px;
+    border: 3px solid #000;
+}
+.nav_menu .sub
+{
+    position: absolute;
+    top: 76px;
+    z-index: 5;
 }
 .sub a
 {
@@ -65,52 +71,47 @@ header label
 }
 .nav_menu
 {
-    display: grid;
-    grid-auto-flow: column;
+    display: grid;    
     gap:3em ;
-    list-style: none;
-    
+    list-style: none;    
 }
 .nav_item
 {
     color: #fff;
-    text-decoration: none;
-    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
-    transition: clip-path .0s;
+    text-decoration: none;   
 }
 .nav ul li:hover ul
-{
-    
+{ 
+    margin-left: -12px;
     display: block;
     position: absolute;    
     color: black;
 } 
 .nav  li:hover
-{
-    padding: 5px 18px 5px 18px;
+{    
     background: #12C6BB;   
 }
-.nav_item::after
-{
-    content: "";
-    display: block;
-    background: #12C6BB;
-    width: 90%;
-    margin-top:3px ;
-    height: 3px;
-    clip-path: var(--clippy);
-    transition: clip-path .0s;
+.nav li
+{   
+    padding: 10px;    
+    border-radius: 3px ; 
 }
-.nav_item:hover
-{
-    --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+.sub li
+{   
+    padding-left: 23px;
+    background: #fff;
+    padding: 10px 10px 10px 0px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px ;
 }
-.nav_input:checked + .nav_menu
-{
-    background: #FAFAFA;
+
+/*vista de cel*/
+.nav_input:checked 
+{        
+    background: #088dc2;
 }
 .nav_label, .nav_input
-{
+{   
     display: none;
 }
 
@@ -118,8 +119,7 @@ header label
 {
     .nav_item
     {
-        color: rgb(0, 0, 0);
-        
+        color: rgb(0, 0, 0);        
     }
     .nav_label
     {
@@ -129,12 +129,13 @@ header label
     .nav_menu
     {
         position: fixed;
-        top: 80px;
+        top: 94px;
         bottom: 0;
         background: rgb(135, 235, 235);
-        width: 100%;
-        left: 0;
+        width: 95.8%;
+        left: 2%;
         display: flex;
+        z-index: 2;
         justify-content: space-evenly;
         flex-direction: column;
         align-items: center;
@@ -150,23 +151,6 @@ header label
         display: none;
         color: black;
     }
-
-    main div img 
-    {
-        background-color: #000000;
-        height: 100%px;
-        width: 100vw;
-        display: flex;
-        justify-content: space-between;
-        /*align-items: center;*/
-        
-    }
-
-}
-
-.title {
-  color: aquamarine;
-  text-align: center;
 }
 .container {
   width: 100%;
@@ -174,6 +158,7 @@ header label
   margin: auto;
 }
 .parallax {
+   
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -181,3 +166,13 @@ header label
   height: 200px;
   padding: 7rem 0;
 }
+
+.parallax1 {
+    margin-top: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../image/imageParallax/tigre.jpg);
+    height: 200px;
+    padding: 7rem 0;
+  }

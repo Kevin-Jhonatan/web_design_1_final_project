@@ -36,7 +36,8 @@ body {
 
 .slideshow-item:nth-child(1),
 .slideshow-item:nth-child(1) img {
-    animation-delay: 0s;
+    animation-delay: 50s;
+    z-index: 1;
 }
 
 .slideshow-item:nth-child(2),
@@ -90,7 +91,7 @@ body {
     padding: 1rem 10rem;
 }
 
-.slideshow-item-text h5 {
+.slideshow-item-text a {
     font-size: 4rem;
     font-family: sans-serif;
     text-transform: uppercase;
