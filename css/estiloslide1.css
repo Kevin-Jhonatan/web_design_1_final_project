@@ -8,7 +8,7 @@ body {
 
 .slideshow {
     width: 104%;
-    height: 800px;
+    height: 600px;
     position: relative;
     top:87px;
     right:0% ;
@@ -83,7 +83,7 @@ body {
 .slideshow-item-text {
     max-width: 50%;
     position: absolute;
-    top: 85%;
+    top: 65%;
     left: 0;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.164);
