@@ -1,3 +1,13 @@
+main .title-main {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+}
+main .title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
 header
 { 
     width: 100%;       
@@ -5,7 +15,8 @@ header
     color: #fff;
     position: fixed;
     z-index: 5;
-    max-width: 1600px;
+    max-width: 1500px;
+    top: 0%;
 }
 header label
 {  
