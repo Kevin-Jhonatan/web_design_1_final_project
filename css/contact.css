@@ -91,12 +91,63 @@
 }
 
 
+/*FORMULARIO*/
+.formulario
+{    
+    margin-top:0px;
+    background: rgba(0, 0, 0, 0.288);
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid  white;
+    border-radius: 22px ;
+    text-align: center;
+}
+.formulario p
+{
+    color: rgb(0, 0, 0);
+}
+.formulario a
+{   
+   padding: .2px 32px 6px 22px;
+   width: 22px; 
+   font-size: 20px;
+   border-radius: 29px;
+   border: 2px solid rgb(255, 254, 254);
+   text-decoration: none;
+   color:#000000 ;
+}
+.formulario a:hover
+{
+    background: #12C6BB;
+    color: black;
+}
+
 @media screen and (max-width: 768px) and (min-width: 926px) {
   .contact .facebook .formulario {
     margin: 100px 0;
   }
 }
 
+.contact .facebook .red-social .jonas a {
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+}
+
+.contact .facebook .red-social .kevin a {
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+}
+.contact .facebook .red-social .mishel a {
+  text-decoration: none;
+  font-size: 13px;
+  text-align: center;
+}
+.contact .facebook .formulario {
+  top: 40px;
+  width: 98%;
+}
 @media screen and (max-width: 767px) {
   * {
     padding: 0px;
