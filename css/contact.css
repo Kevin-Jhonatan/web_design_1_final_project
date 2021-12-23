@@ -122,31 +122,35 @@
     color: black;
 }
 
+@media screen and (max-width: 1028px) {
+  .contact .facebook .red-social .jonas a {
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .contact .facebook .red-social .kevin a {
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+  }
+  .contact .facebook .red-social .mishel a {
+    text-decoration: none;
+    font-size: 13px;
+    text-align: center;
+  }
+  .contact .facebook .formulario {
+    top: 40px;
+    width: 98%;
+  }
+
+}
 @media screen and (max-width: 768px) and (min-width: 926px) {
   .contact .facebook .formulario {
     margin: 100px 0;
   }
-}
 
-.contact .facebook .red-social .jonas a {
-  text-decoration: none;
-  font-size: 13px;
-  text-align: center;
-}
-
-.contact .facebook .red-social .kevin a {
-  text-decoration: none;
-  font-size: 13px;
-  text-align: center;
-}
-.contact .facebook .red-social .mishel a {
-  text-decoration: none;
-  font-size: 13px;
-  text-align: center;
-}
-.contact .facebook .formulario {
-  top: 40px;
-  width: 98%;
+  
 }
 @media screen and (max-width: 767px) {
   * {
