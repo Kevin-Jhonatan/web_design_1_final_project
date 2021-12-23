@@ -1,0 +1,198 @@
+.footer {
+    background: #000;
+    /* =================================================== */
+    /* ============================mobile================= */
+    /* =================================================== */
+  }
+  
+  .footer .logo-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .footer .logo-footer .image-footer a img {
+    width: 200px;
+  }
+  
+  .footer .container-email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-size: 20px;
+    width: auto;
+    padding: 20px 0 10px 0;
+  }
+  
+  .footer .container-email .correo-jonas a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .footer .container-email .correo-jonas a:hover {
+    background: red;
+    color: #000;
+  }
+  
+  .footer .container-email .correo-kevin a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .footer .container-email .correo-kevin a:hover {
+    background: yellow;
+    color: #000;
+  }
+  
+  .footer .container-email .correo-brisa a {
+    text-decoration: none;
+    color: white;
+    border: 3px solid green;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .footer .container-email .correo-brisa a:hover {
+    background: green;
+    color: #000;
+  }
+  
+  .footer .container-copy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+  }
+  
+  .footer .container-copy .copy p {
+    color: white;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer .logo-footer {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+    .footer .logo-footer .image-footer a img {
+      width: 200px;
+    }
+    .footer .container-email {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      /* justify-content: space-around; */
+      /*  font-size: 20px;
+              width: auto;
+              padding: 20px 0 10px 0; */
+    }
+    .footer .container-email .correo-jonas {
+      width: 100%;
+    }
+    .footer .container-email .correo-jonas a {
+      display: block;
+      margin: 20px 20px 2px 20px;
+      text-align: center;
+    }
+    .footer .container-email .correo-jonas a:hover {
+      background: red;
+      color: #000;
+    }
+    .footer .container-email .correo-kevin {
+      width: 100%;
+    }
+    .footer .container-email .correo-kevin a {
+      display: block;
+      margin: 20px 20px 2px 20px;
+      text-align: center;
+    }
+    .footer .container-email .correo-kevin a:hover {
+      background: yellow;
+      color: #000;
+    }
+    .footer .container-email .correo-brisa {
+      width: 100%;
+    }
+    .footer .container-email .correo-brisa a {
+      display: block;
+      margin: 20px 20px 2px 20px;
+      text-align: center;
+    }
+    .footer .container-email .correo-brisa a:hover {
+      background: green;
+      color: #000;
+    }
+    .footer .container-copy {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      /* padding: 20px; */
+      font-size: 10px;
+    }
+    .footer .container-copy .copy {
+      width: 100%;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
+          align-self: center;
+    }
+    .footer .container-copy .copy p {
+      color: white;
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  /*# sourceMappingURL=footer.css.map */
