@@ -3,6 +3,7 @@
 @import url("content.css");
 @import url("estiloslide1.css");
 @import url("estiloslide2.css");
+@import url("about.css");
 * {
   margin: 0px;
   padding: 0px;
@@ -186,7 +187,7 @@ label, .nav_input
     .nav_item
     {
         color: rgb(0, 0, 0);        
-    }   
+    }
     .nav_menu
     {
         
