@@ -29,11 +29,11 @@
   padding: 7rem 0;
 }
 .parallax1 {
-  margin-top: 500px;
+  margin-top: 20px;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../image/imageParallax/tigre.jpg);
   height: 200px;
   padding: 7rem 0;
-  }
+}
