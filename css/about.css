@@ -1,0 +1,92 @@
+.title-About {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    min-height: 450px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #00F260;
+    background: -webkit-gradient(linear, left top, right top, from(#0575E6), to(#00F260));
+    background: linear-gradient(to right, #0575E6, #00F260);
+  }
+  
+  .about .mision {
+    width: 48%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border: 3px solid #000;
+    margin: 20px 5px 20px 5px;
+    border-radius: 15px;
+  }
+  
+  .about .mision .title-mision {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px;
+  }
+  
+  .about .mision .text-about {
+    margin: 20px 40px 20px 40px;
+    font-size: 20px;
+  }
+  
+  .about .vision {
+    width: 48%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border: 3px solid #000;
+    margin: 20px 5px 20px 5px;
+    border-radius: 15px;
+  }
+  
+  .about .vision .title-vision {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px;
+  }
+  
+  .about .vision .text-about {
+    margin: 20px 40px 20px 40px;
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .about {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: auto;
+      display: block;
+      padding: 10px;
+    }
+    .about .mision {
+      width: 90%;
+      margin: auto auto 10px auto;
+    }
+    .about .vision {
+      width: 90%;
+      margin: auto auto 10px auto;
+    }
+  }
+  /*# sourceMappingURL=cochasoft.css.map */
