@@ -15,7 +15,7 @@ header
     color: #fff;
     position: fixed;
     z-index: 5;
-    max-width: 1500px;
+    max-width: 1500%;
     top: 0%;
 }
 header label
