@@ -202,11 +202,12 @@
 }
 
 .contact .address .map {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border-radius: 12px;
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .contact .facebook {
@@ -224,9 +225,11 @@
 }
 
 .contact .facebook .red-social .jonas img {
-  position: relative;
+  /* position: relative;
   right: 12%;
-  top: 30px;
+  top: 30px; */
+  display: block;
+  margin: auto;
 }
 
 .contact .facebook .red-social .jonas a {
@@ -247,9 +250,11 @@
 }
 
 .contact .facebook .red-social .kevin img {
-  position: relative;
+  /* position: relative;
   right: 12%;
-  top: 30px;
+  top: 30px; */
+  display: block;
+  margin: auto;
 }
 
 .contact .facebook .red-social .kevin a {
@@ -270,9 +275,11 @@
 }
 
 .contact .facebook .red-social .mishel img {
-  position: relative;
+  /* position: relative;
   right: 13%;
-  top: 30px;
+  top: 30px; */
+  display: block;
+  margin: auto;
 }
 
 .contact .facebook .red-social .mishel a {
@@ -288,17 +295,6 @@
   color: green;
 }
 
-.contact .facebook .formulario {
-  height: 48%;
-  background-color: #e5e5f7;
-  border-radius: 15px;
-  -webkit-box-shadow: 0 5px 10px -5px #000;
-          box-shadow: 0 5px 10px -5px #000;
-  max-height: 400px;
-  position: relative;
-  top: 15px;
-  width: 100%;
-}
 
 @media screen and (max-width: 768px) and (min-width: 926px) {
   .contact .facebook .formulario {

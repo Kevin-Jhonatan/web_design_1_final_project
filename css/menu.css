@@ -5,6 +5,7 @@ header
     color: #fff;
     position: fixed;
     z-index: 5;
+    max-width: 1600px;
 }
 header label
 {  
@@ -105,7 +106,7 @@ label, .nav_input
 { 
     header
     {         
-        width: 100vw 50px 20px 2px;        
+        width: 100vw;        
         color: #12C6BB;
         position: fixed;        
     }

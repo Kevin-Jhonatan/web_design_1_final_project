@@ -1,3 +1,11 @@
+/* ============================================================== */
+
+
+/* ___Slider con informacion sobre los 9 departamentos___ */
+
+
+/* ============================================================== */
+
 html {
     font-size: 8px;
 }
@@ -7,11 +15,12 @@ body {
 }
 
 .slideshow {
-    width: 104%;
-    height: 800px;
+    font-size: 8px;
+    width: 100%;
+    height: 600px;
     position: relative;
-    top:87px;
-    right:0% ;
+    top: 87px;
+    right: 0%;
     overflow: hidden;
 }
 
@@ -26,14 +35,13 @@ body {
 .slideshow-item img {
     width: 100%;
     height: 100%;
-    /*object-fit: cover;*/
     animation: zoom 31s infinite;
     bottom: 100px;
     background-size: cover;
 }
 
 
-/*nth-child coincide con uno o más elementos en función de su posición entre un grupo de hermanos.*/
+/* /nth-child coincide con uno o más elementos en función de su posición entre un grupo de hermanos./ */
 
 .slideshow-item:nth-child(1),
 .slideshow-item:nth-child(1) img {
@@ -83,12 +91,12 @@ body {
 .slideshow-item-text {
     max-width: 50%;
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 0;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.226);
     color: #fff;
-    padding: 1rem 10rem;
+    padding: 1rem 5rem;
 }
 
 .slideshow-item-text h5 {
@@ -96,18 +104,19 @@ body {
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .slideshow-item-text p {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
+    text-align: justify;
     font-family: sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: .3px;
     font-weight: 300;
 }
 
 
-/*fotograma describe cómo se muestra cada elemento animado en un momento dado durante la secuencia de la animación.*/
+/* /fotograma describe cómo se muestra cada elemento animado en un momento dado durante la secuencia de la animación./ */
 
 @keyframes cycleImages {
     25% {
@@ -126,26 +135,104 @@ body {
 
 @media screen and (max-width: 1000px) {
     .slideshow-item-text {
-        max-width: 70%;
-        padding: 5rem 1rem;
+        max-width: 50%;
+        padding: 1rem 1rem;
     }
     .slideshow-item-text h5 {
         font-size: 4rem;
+    }
+    .slideshow-item-text p {
+        font-size: 1.8rem;
+        line-height: 17px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .slideshow-item-text {
-        max-width: 100%;
-        padding: 2rem;
-        top: initial;
-        bottom: 0;
-        transform: initial;
+        max-width: 50%;
+        padding: 1rem 1rem;
+        top: 80%;
     }
     .slideshow-item-text h5 {
         font-size: 3rem;
     }
     .slideshow-item-text p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 573px) {
+    .slideshow-item-text {
+        max-width: 60%;
+        padding: 1rem 1rem;
+        top: 80%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 3rem;
+    }
+    .slideshow-item-text p {
+        font-size: 1.8rem;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .slideshow-item-text {
+        max-width: 75%;
+        padding: 1rem 1rem;
+        top: 85%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 2.5rem;
+    }
+    .slideshow-item-text p {
+        font-size: 1.5rem;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .slideshow-item-text {
+        max-width: 85%;
+        padding: 1rem 1rem;
+        top: 80%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 2.5rem;
+    }
+    .slideshow-item-text p {
+        font-size: 1.5rem;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .slideshow-item-text {
+        max-width: 90%;
+        padding: 1rem 1rem;
+        top: 85%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 2rem;
+    }
+    .slideshow-item-text p {
+        font-size: 1.2rem;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 158px) {
+    .slideshow-item-text {
+        max-width: 90%;
+        padding: 1rem 1rem;
+        top: 85%;
+    }
+    .slideshow-item-text h5 {
+        font-size: 1.5rem;
+    }
+    .slideshow-item-text p {
+        font-size: 1rem;
+        line-height: 10px;
     }
 }

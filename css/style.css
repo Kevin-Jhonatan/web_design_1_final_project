@@ -4,6 +4,9 @@
 @import url("content.css");
 @import url("estiloslide1.css");
 @import url("estiloslide2.css");
+@import url("about.css");
+@import url("fontello.css");
+@import url("footer.css");
 * {
   margin: 0px;
   padding: 0px;
@@ -26,11 +29,11 @@
   padding: 7rem 0;
 }
 .parallax1 {
-    margin-top: 500px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../image/imageParallax/tigre.jpg);
-    height: 200px;
-    padding: 7rem 0;
+  margin-top: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../image/imageParallax/tigre.jpg);
+  height: 200px;
+  padding: 7rem 0;
   }

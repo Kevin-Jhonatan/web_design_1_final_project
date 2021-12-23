@@ -1,16 +1,27 @@
+/* ============================================================== */
+
+
+/* ___Slider con informacion de animales en extincion___ */
+
+
+/* ============================================================== */
+
 html {
     font-size: 8px;
 }
+
 body {
     background-color: azure;
 }
 
 .slideshoww {
-    /*padding-top: 80px;*/
-    width: 104%;
+    width: 100%;
     height: 500px;
-    position: absolute;    
+    position: relative;
+    top: 87px;
+    right: 0%;
     overflow: hidden;
+    font-size: 8px;
 }
 
 .slideshow-itemm {
@@ -24,13 +35,12 @@ body {
 .slideshow-itemm img {
     width: 100%;
     height: 100%;
-    /*object-fit: cover;*/
-    /*animation: zoom 31s infinite;*/
     bottom: 100px;
     background-size: cover;
 }
 
-/*nth-child coincide con uno o más elementos en función de su posición entre un grupo de hermanos.*/
+
+/* /nth-child coincide con uno o más elementos en función de su posición entre un grupo de hermanos./ */
 
 .slideshow-itemm:nth-child(1),
 .slideshow-itemm:nth-child(1) img {
@@ -50,30 +60,32 @@ body {
 .slideshow-item-textt {
     max-width: 50%;
     position: absolute;
-    top: 78%;
+    top: 80%;
     left: 0;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.164);
+    background-color: rgba(0, 0, 0, 0.226);
     color: #fff;
-    padding: 1rem 10rem;
+    padding: 1rem 5rem;
 }
 
 .slideshow-item-textt h5 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .slideshow-item-textt p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-align: justify;
     font-family: sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: .3px;
     font-weight: 300;
 }
 
-/*fotograma describe cómo se muestra cada elemento animado en un momento dado durante la secuencia de la animación.*/
+
+/* /fotograma describe cómo se muestra cada elemento animado en un momento dado durante la secuencia de la animación./ */
 
 @keyframes cycleImages {
     25% {
@@ -84,70 +96,106 @@ body {
     }
 }
 
-/*@keyframes zoom {
-    100% {
-        transform: scale(1.3);
-    }
-}*/
-
 @media screen and (max-width: 1000px) {
     .slideshow-item-textt {
-        max-width: 70%;
-        padding: 5rem 1rem;
-        top: 70%;
-        bottom: 0;
-        transform: initial;
+        max-width: 50%;
+        padding: 1rem 1rem;
     }
     .slideshow-item-textt h5 {
-        font-size: 3rem;
-    }    
+        font-size: 4rem;
+    }
     .slideshow-item-textt p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        line-height: 17px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .slideshow-item-textt {
-        max-width: 100%;
-        padding: 2rem;
-        top: 70%;
-        bottom: 0;
-        transform: initial;
+        max-width: 50%;
+        padding: 1rem 1rem;
+        top: 80%;
     }
     .slideshow-item-textt h5 {
         font-size: 3rem;
     }
     .slideshow-item-textt p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        line-height: 17px;
     }
 }
-@media screen and (max-width: 495px) {
+
+@media screen and (max-width: 573px) {
     .slideshow-item-textt {
-        max-width: 100%;
-        padding: 2rem;
-        top: 65%;
-        bottom: 0;
-        transform: initial;
+        max-width: 60%;
+        padding: 1rem 1rem;
+        top: 79%;
     }
     .slideshow-item-textt h5 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
     .slideshow-item-textt p {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        line-height: 17px;
     }
 }
-@media screen and (max-width: 340px) {
+
+@media screen and (max-width: 463px) {
     .slideshow-item-textt {
-        max-width: 100%;
-        padding: 2rem;
-        top: 55%;
-        bottom: 0;
-        transform: initial;
+        max-width: 70%;
+        padding: 1rem 1rem;
+        top: 79%;
+    }
+    .slideshow-item-textt h5 {
+        font-size: 2.5rem;
+    }
+    .slideshow-item-textt p {
+        font-size: 1.5rem;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .slideshow-item-textt {
+        max-width: 80%;
+        padding: 1rem 1rem;
+        top: 80%;
+    }
+    .slideshow-item-textt h5 {
+        font-size: 2.2rem;
+    }
+    .slideshow-item-textt p {
+        font-size: 1.2rem;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 256px) {
+    .slideshow-item-textt {
+        max-width: 90%;
+        padding: 1rem 1rem;
+        top: 80%;
     }
     .slideshow-item-textt h5 {
         font-size: 2rem;
     }
     .slideshow-item-textt p {
+        font-size: 1.2rem;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 192px) {
+    .slideshow-item-textt {
+        max-width: 90%;
+        padding: 1rem 1rem;
+        top: 80%;
+    }
+    .slideshow-item-textt h5 {
         font-size: 1.4rem;
+    }
+    .slideshow-item-textt p {
+        font-size: 1rem;
+        line-height: 10px;
     }
 }
